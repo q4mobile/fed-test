@@ -59,6 +59,19 @@
 }
 
 /* Begin styling the report items here! */
-.reports {
 
+.reports_item{  /****************** 3 Coloumn layout*************/
+  float: left;
+  width: 33.33%;
+  padding:10px;
+}
+
+
+/****Responsive CSS*****************/
+@media only screen and (max-width: 768px) { /****************** 2 Coloumn layout*************/
+  .reports_item{
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
 }
