@@ -60,5 +60,24 @@
 
 /* Begin styling the report items here! */
 .reports {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  justify-items: center;
+  gap: 30px;
+  -ms-grid-template-columns: repeat(3, minmax(30%, 1fr));
+  -ms-gap: 30px;
+}
 
+@media only screen and (max-width: 768px) {
+  .reports {
+    grid-template-columns: repeat(2, minmax(33%, 1fr));
+    -ms-grid-template-columns: repeat(2, minmax(33%, 1fr));
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .reports {
+    grid-template-columns: minmax(60%, 1fr);
+    -ms-grid-template-columns: minmax(60%, 1fr);
+  }
 }
