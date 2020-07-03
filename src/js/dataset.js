@@ -1,4 +1,4 @@
-var reportData = [
+const reportData = [
     {
         "cover": "images/cover1.jpg",
         "type": "Annual Report",

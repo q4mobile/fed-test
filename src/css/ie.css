@@ -1,0 +1,169 @@
+/* flexbox is not supported in ie9 and lower so here is an older solution */
+.reports {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-xs-1{
+    float:left;
+    width: 8.33%;
+}
+.col-xs-2{
+    float:left;
+    width: 16.66%;
+}
+.col-xs-3{
+    float:left;
+    width: 25%;
+}
+.col-xs-4{
+    float:left;
+    width: 33.33%;
+}
+.col-xs-5{
+    float:left;
+    width: 41.66%;
+}
+.col-xs-6{
+    float:left;
+    width: 50%;
+}
+.col-xs-7{
+    float:left;
+    width: 58.33%;
+}
+.col-xs-8{
+    float:left;
+    width: 66.66%;
+}
+.col-xs-9{
+    float:left;
+    width: 75%;
+}
+.col-xs-10{
+    float:left;
+    width: 83.33%;
+}
+.col-xs-11{
+    float:left;
+    width: 91.66%;
+}
+.col-xs-12{
+    float:left;
+    width: 100%;
+}
+  
+  /* cols for small screens */
+@media only screen and (min-width: 568px) {
+    .col-sm-1{
+        float:left;
+        width: 8.33%;
+    }
+    .col-sm-2{
+        float:left;
+        width: 16.66%;
+    }
+    .col-sm-3{
+        float:left;
+        width: 25%;
+    }
+    .col-sm-4{
+        float:left;
+        width: 33.33%;
+    }
+    .col-sm-5{
+        float:left;
+        width: 41.66%;
+    }
+    .col-sm-6{
+        float:left;
+        width: 50%;
+    }
+    .col-sm-7{
+        float:left;
+        width: 58.33%;
+    }
+    .col-sm-8{
+        float:left;
+        width: 66.66%;
+    }
+    .col-sm-9{
+        float:left;
+        width: 75%;
+    }
+    .col-sm-10{
+        float:left;
+        width: 83.33%;
+    }
+    .col-sm-11{
+        float:left;
+        width: 91.66%;
+    }
+    .col-sm-12{
+        float:left;
+        width: 100%;
+    }
+}
+  
+/* cols for desktop */
+@media only screen and (min-width: 768px) {
+    .col-1{
+        float:left;
+        width: 8.33%;
+    }
+    .col-2{
+        float:left;
+        width: 16.66%;
+    }
+    .col-3{
+        float:left;
+        width: 25%;
+    }
+    .col-4{
+        float:left;
+        width: 33.33%;
+    }
+    .col-5{
+        float:left;
+        width: 41.66%;
+    }
+    .col-6{
+        float:left;
+        width: 50%;
+    }
+    .col-7{
+        float:left;
+        width: 58.33%;
+    }
+    .col-8{
+        float:left;
+        width: 66.66%;
+    }
+    .col-9{
+        float:left;
+        width: 75%;
+    }
+    .col-10{
+        float:left;
+        width: 83.33%;
+    }
+    .col-11{
+        float:left;
+        width: 91.66%;
+    }
+    .col-12{
+        float:left;
+        width: 100%;
+    }
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both; 
+}    
