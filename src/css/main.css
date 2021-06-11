@@ -48,17 +48,73 @@
   opacity: 0.5;
 }
 
+.layout {
+  background-color: #2B3034;
+}
+
 .layout_inner {
   max-width: 960px;
   margin: 0 auto;
   padding: 30px 20px;
 }
+
 .layout_header {
   margin-bottom: 30px;
   text-align: center;
+  background-color: #23272A;
+  color: white;
+  padding: 1px 0;
 }
 
 /* Begin styling the report items here! */
 .reports {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.reports_cover {
+  -webkit-box-shadow: 0 1px 5px 0 #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0 1px 5px 0 #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0 1px 5px 0 #000;
+  margin-bottom: 10px;
+}
+
+.reports_item {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30px 30px 0;
+}
+
+.reports_title {
+  margin: 2px 0;
+}
+
+.reports_docs {
+  font-size: 12px;
+  background: #23272A;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file_title {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.file_size {
+  text-decoration: none;
+  color: #919394;
 }
