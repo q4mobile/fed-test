@@ -60,5 +60,18 @@
 
 /* Begin styling the report items here! */
 .reports {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.text-grey{
+  color: grey !important;
+}
+@media (max-width: 768px) {
+  .reports{
+  grid-template-columns: repeat(2, 1fr);
+  }
+  
 
 }
